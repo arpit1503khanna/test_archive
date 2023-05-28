@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "pg",
+      "host": {
+        "ENV": "AUDIT_LOG_SERVICE_DB_HOST"
+      },
+      "port": {
+        "ENV": "AUDIT_LOG_SERVICE_DB_PORT"
+      },
+      "user": {
+        "ENV": "AUDIT_LOG_SERVICE_DB_USER"
+      },
+      "password": {
+        "ENV": "AUDIT_LOG_SERVICE_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "AUDIT_LOG_SERVICE_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
